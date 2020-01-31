@@ -1,0 +1,30 @@
+/*
+style
+*/
+body{
+  background-color: #eeeeee;
+}
+p{
+  border: black solid 1px;
+}
+.big {
+  font-size:2em;
+
+}
+.red{
+ color: red;
+}
+
+/*
+combined selectors
+*/ 
+p.red{
+  font-style: italic;
+}
+
+/*
+element with a classname red that is child of a paragraph
+*/
+p .red{
+  color: violet;
+}
